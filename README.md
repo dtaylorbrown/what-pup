@@ -1,4 +1,4 @@
-# What pup?
+# What pup?
 
 An interesting application that attempts to:
 - Detect dog breeds by image
