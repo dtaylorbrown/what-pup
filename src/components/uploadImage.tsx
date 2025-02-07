@@ -11,7 +11,13 @@ const UploadImage = ({
       <label htmlFor='fileSelect' className={styles.uploadButtonLabel}>
         Upload an image
       </label>
-      <input id='fileSelect' type='file' onChange={handleFileChange} hidden />
+      <input
+        id='fileSelect'
+        type='file'
+        accept='image/*'
+        onChange={handleFileChange}
+        hidden
+      />
     </div>
   );
 };
