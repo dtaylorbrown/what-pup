@@ -97,6 +97,10 @@
   opacity: 0.85;
 }
 
+.userImage {
+  margin-bottom: 2rem;
+}
+
 a.primary {
   background: var(--foreground);
   color: var(--background);

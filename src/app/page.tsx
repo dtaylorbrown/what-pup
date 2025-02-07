@@ -50,14 +50,19 @@ export default function Home() {
         <p>An interesting breed detection and bark translation app</p>
         {image && (
           <div>
-            <img src={image} width={300} alt='user uploaded' />
+            <img
+              src={image}
+              width={300}
+              alt='user uploaded'
+              className={styles.userImage}
+            />
             <br />
             {predictions.length <= 0 ? (
               <button
                 onClick={() => handleAnalyze()}
                 className={styles.uploadButtonLabel}
               >
-                what breed am i?
+                What breed am I?
               </button>
             ) : (
               <UploadImage handleFileChange={handleFileChange} />
